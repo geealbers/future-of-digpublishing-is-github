@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=1024, user-scalable=no">
+
+  <title>The Future of Digital Publishing is GitHub (#MCN2014)</title>
+
+  <!-- Required stylesheet -->
+  <link rel="stylesheet" media="screen" href="core/deck.core.css">
+
+  <!-- Extension CSS files go here. Remove or add as needed. -->
+  <link rel="stylesheet" media="screen" href="extensions/menu/deck.menu.css">
+  <link rel="stylesheet" media="screen" href="extensions/navigation/deck.navigation.css">
+  <link rel="stylesheet" media="screen" href="extensions/status/deck.status.css">
+  <link rel="stylesheet" media="screen" href="extensions/scale/deck.scale.css">
+
+  <!-- Style theme. More available in /themes/style/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/style/swiss.css">
+
+  <!-- Transition theme. More available in /themes/transition/ or create your own. -->
+  <link rel="stylesheet" media="screen" href="themes/transition/horizontal-slide.css">
+
+  <!-- Basic black and white print styles -->
+  <link rel="stylesheet" media="print" href="core/print.css">
+
+  <!-- Required Modernizr file -->
+  <script src="modernizr.custom.js"></script>
+  
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  
+  <style> 
+  	.slide {
+  		text-align: center; }
+	section.slide {	
+		background: -webkit-linear-gradient(left top, #D5ECF7, #F7EFD5);
+		background: -o-linear-gradient(bottom, #D5ECF7, #F7EFD5);
+		background: -moz-linear-gradient(bottom, #D5ECF7, #F7EFD5);
+		background: linear-gradient(to bottom, #D5ECF7, #F7EFD5); }
+  	.slide p, ol {
+  		line-height:1.35em; }	 
+  	.logo {
+  		position: absolute;
+  		bottom: 10px;
+  		left: 10px; 
+  		z-index: 3;
+  		margin:0;
+  		padding:0;
+		width:72px;
+  		height:72px; } 	
+  	.listcenter {
+  		text-align:left;
+  		width:60%;
+  		margin: 0 20%; }	
+  	.siloscontainer	{
+  		width:1080px;
+  		margin:0 auto; }
+ 	.silo {
+  		float: left; 
+  		text-align: center;
+  		width: 160px; 
+  		height: 130px;
+  		background-color:#777;
+  		margin:0 10px;
+  		padding-top:30px;
+  		color: #ececec; 
+  		border-radius:10px; }
+  	.silogroup {
+  		float: left; 
+  		width:270px;
+  		height:270px;
+  		padding:10px 5px; 
+  		border: 8px solid #000;
+  		border-radius:10px; 
+  		margin:0 32px; 
+  		color: #000;
+  		/* background-color: #bbb; */} 				
+  	.silogroup .silo {
+  		font-size: .5em;
+  		width:80px;
+  		height:65px;
+  		margin:5px;
+  		padding-top:15px;
+		border-radius:5px; }
+  	.vcenter {
+  		width: 70%; 
+  		margin: 0 auto; }
+  	a:link {
+  		color: #451c72; }
+  	a:visited {
+  		color: #451c72; }	
+  	a:hover {
+  		color: #6e40a0;
+  		text-decoration:none; }	
+  	.deck-prev-link:hover, .deck-prev-link:focus, .deck-next-link:hover, .deck-next-link:focus {
+    	background-color: #451c72; }
+  	h1 {
+  		font-size: 2.5em;
+  		line-height: 1.2em;
+  		color: #451c72;  }
+  	h1 strong {
+  		text-decoration: underline; }		
+  	.block {
+  		margin-top:2em; 
+  		margin-bottom:0; }	
+  	.attribution {
+  		font-size: .75em; 
+  		color: #888; }
+  	.creditline	{
+  		position: absolute;
+  		bottom: 10px;
+  		right: 80px;
+  		margin:0; 
+  		font-size: .65em; 
+  		color: #888; }
+  	.finished {
+  		text-decoration: line-through; 
+  		color: #888;}
+  	.screenshot {
+  		width:100%;
+  	 	max-width:900px; 
+  	 	margin-bottom:0; }
+  </style>
+</head>
+<body>
+
+	<div class="deck-container">
+
+		<!-- Begin slides. Just make elements with a class of slide. -->
+	
+		<section class="slide">
+			<div class="vcenter">
+				<p>&#160;</p>
+				<h1>The Future of <br />Digital Publishing <br />is GitHub</h1>
+				<div class="block">
+					<p>Greg Albers</p>
+					<p>Digital Publications Manager<br />Getty Publications<br />
+					<i class="fa fa-envelope"></i> <a href="mailto:galbers@getty.edu">galbers@getty.edu</a><br />
+					<i class="fa fa-twitter"></i> <a href="http://www.twitter.com/geealbers" target="_blank">@geealbers</a><br />
+					<i class="fa fa-github"></i> <a href="http://github.com/gettypubs" target="_blank">http://github.com/gettypubs</a></p>
+				</div>
+			</div>
+		</section>	
+	
+		<section class="slide">
+			<div class="vcenter">
+				<div class="listcenter">
+				<ol>
+					<li>Definitions and conceptual models <br />of books and code</li>
+					<li>Git as a workflow for individual books</li>
+					<li>GitHub as a the only viable development platform for the future of digital publishing</li>
+				</ol>
+				</div>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div class="vcenter">
+				<h1>Git</h1>
+				<p>a revision control system</p>
+			</div>
+		</section>
+	
+		<section class="slide">
+			<div class="vcenter">
+				<h1>GitHub</h1>
+				<p>a project hosting site that uses Git</p>
+			</div>
+		</section>
+	
+		<section class="slide">
+			<div class="vcenter">
+				<h1>Books</h1>
+				<p>&#8220;Long form texts that are sold.&#8221;</p>
+				<p class="attribution">Brewster Kahle, 2014</p>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div class="vcenter">
+				<h1>Book Publishing</h1>
+				<p>&#8220;Trade publishing is by nature a cottage industry, decentralized, improvisational, personal; best performed by small groups of like-minded people, devoted to their craft, jealous of their autonomy, sensitive to the needs of writers and to the diverse interests of readers.&#8221;</p>
+				<p class="attribution">Jason Epstein, 2001</p>
+			</div>
+		</section>
+			
+		<section class="slide">
+			<div class="vcenter">
+			<div class="siloscontainer">
+				<div class="silo"><p><i class="fa fa-pencil"></i><br />Editorial</p></div>
+				<div class="silo"><p><i class="fa fa-file-image-o"></i><br />Design</p></div>
+				<div class="silo"><p><i class="fa fa-cogs"></i><br />Production</p></div>
+				<div class="silo"><p><i class="fa fa-truck"></i><br />Distribution</p></div>
+				<div class="silo"><p><i class="fa fa-dollar"></i><br />Marketing</p></div>
+				<div class="slide"><div class="silo"><p><i class="fa fa-code"></i><br />Digital</p></div></div>
+			</div>
+			</div>
+			<p class="creditline">Icons by Font Awesome http://fontawesome.io/ (SIL OLF 1.1 / MIT License)</p>
+		</section>
+	
+		<section class="slide">
+			<div class="vcenter">
+			<div class="siloscontainer">
+				<div class="silogroup">
+					<p>Publisher A</p>
+					<div class="silo"><p><i class="fa fa-pencil"></i><br />Editorial</p></div>
+					<div class="silo"><p><i class="fa fa-file-image-o"></i><br />Design</p></div>
+					<div class="silo"><p><i class="fa fa-cogs"></i><br />Production</p></div>
+					<div class="silo"><p><i class="fa fa-truck"></i><br />Distribution</p></div>
+					<div class="silo"><p><i class="fa fa-dollar"></i><br />Marketing</p></div>
+					<div class="silo"><p><i class="fa fa-code"></i><br />Digital</p></div>
+				</div>	
+				<div class="silogroup">
+					<p>Publisher B</p>
+					<div class="silo"><p><i class="fa fa-pencil"></i><br />Editorial</p></div>
+					<div class="silo"><p><i class="fa fa-file-image-o"></i><br />Design</p></div>
+					<div class="silo"><p><i class="fa fa-cogs"></i><br />Production</p></div>
+					<div class="silo"><p><i class="fa fa-truck"></i><br />Distribution</p></div>
+					<div class="silo"><p><i class="fa fa-dollar"></i><br />Marketing</p></div>
+					<div class="silo"><p><i class="fa fa-code"></i><br />Digital</p></div>
+				</div>
+				<div class="silogroup">
+					<p>Publisher C</p>
+					<div class="silo"><p><i class="fa fa-pencil"></i><br />Editorial</p></div>
+					<div class="silo"><p><i class="fa fa-file-image-o"></i><br />Design</p></div>
+					<div class="silo"><p><i class="fa fa-cogs"></i><br />Production</p></div>
+					<div class="silo"><p><i class="fa fa-truck"></i><br />Distribution</p></div>
+					<div class="silo"><p><i class="fa fa-dollar"></i><br />Marketing</p></div>
+					<div class="silo"><p><i class="fa fa-code"></i><br />Digital</p></div>
+				</div>
+			</div>
+			</div>
+		</section>
+	
+		<section class="slide">
+			<div class="vcenter">
+				<p><img width="600px" alt="forks" src="images/forks1.png" /></p>
+				<p>&#160;</p>
+				<p class="slide">1. a single master file</p>
+				<p class="slide">2. every change and contribution recorded</p>
+			</div>
+			<p class="creditline">Illustration derived from <em>Fork</em>, Dmitry Baranovskiy, The Noun Project (CC BY-SA 3.0)</p>
+		</section>	
+	
+		<section class="slide">
+			<div class="vcenter">
+				<p><img width="600px" alt="forks" src="images/forks2.png" /></p>
+			</div>
+			<p class="creditline">Illustration derived from <em>Fork</em>, Dmitry Baranovskiy, The Noun Project (CC BY-SA 3.0)</p>
+		</section>	
+	
+		<section class="slide">
+			<div class="vcenter">
+				<p><img width="81px" alt="fork" src="images/forks3.png" /></p>
+				<p>Git allows for and manages this structure, <br />GitHub makes it open and collaborative</p>
+			</div>
+			<p class="creditline">Illustration derived from <em>Fork</em>, Dmitry Baranovskiy, The Noun Project (CC BY-SA 3.0)</p>
+		</section>	
+	
+		<section class="slide">
+			<div class="vcenter">
+				<div class="listcenter">
+				<ol>
+					<li class="finished">Definitions and conceptual models <br />of books and code</li>
+					<li>Git as a workflow for individual books</li>
+					<li>GitHub as a the only viable development platform for the future of digital publishing</li>
+				</ol>
+				</div>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<div class="block">
+					<p><a href="https://leanpub.com/" target="_blank">Leanpub</a> leanpub.com</p>
+					<p><a href="https://www.gitbook.io/" target="_blank">GitBook</a> www.gitbook.io</p>
+					<p><a href="https://atlas.oreilly.com" target="_blank">Atlas</a> atlas.oreilly.com</p>
+				</div>	
+			</div>
+		</section>	
+	
+		<section class="slide">
+			<div class="vcenter">
+				<p><img width="800px" alt="forks" src="images/forks4.png" /></p>
+			</div>
+			<p class="creditline">Illustration derived from <em>Fork</em>, Dmitry Baranovskiy, The Noun Project (CC BY-SA 3.0)</p>
+		</section>	
+	
+		<section class="slide">
+			<div class="vcenter">
+				<div class="listcenter">
+				<ol>
+					<li class="finished">Definitions and conceptual models <br />of books and code</li>
+					<li class="finished">Git as a workflow for individual books</li>
+					<li>GitHub as a the only viable development platform for the future of digital publishing</li>
+				</ol>
+				</div>
+			</div>
+		</section>
+
+		<section class="slide">
+			<div class="vcenter">
+				<h1>The web offers a <strong>dynamic</strong>, <strong>universal</strong>, and <strong>open</strong> publishing ecosystem for digital books</h1>
+			</div>
+		</section>	
+		
+		<section class="slide">
+			<div class="vcenter">
+				<p>So, GitHub ...</p>
+				<p class="slide">observe and build from existing work</p>
+				<p class="slide">create new tools for everyone to use</p>
+				<p class="slide">connect to a world far deeper than books alone</p>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<h1 class="alt">Traditional Presentation</h1>
+				<div class="block">
+					<p><a href="http://www.turnjs.com/#samples" target="_blank">turn.js</a> /blasten/turn.js</p>
+					<p><a href="http://www.19thc-artworldwide.org/images/stories/spring_13/articles/omalley_barush/album_images/lewis_miller_guide_to_central_park/index.html#page/3/mode/2up" target="_blank">BookReader</a> /openlibrary/bookreader</p>
+					<p><a href="http://futurepress.github.io/epub.js/examples/promises.html" target="_blank">epub.js</a> /futurepress/epub.js</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<h1 class="alt">Alt Presentation</h1>
+				<div class="block">
+					<p><a href="http://prinzhorn.github.io/skrollr/" target="_blank">Skrollr</a> /Prinzhorn/skrollr</p>
+					<p><a href="http://digitalpathways.net/lastcartographer/original" target="_blank">deck.js</a> /imakewebthings/deck.js</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<h1 class="alt">Extras</h1>
+				<div class="block">
+					<p><a href="http://daneden.github.io/animate.css/" target="_blank">animate.css</a> /daneden/animate.css</p>
+					<p><a href="http://dfcb.github.io/BigVideo.js/" target="_blank">bigvideo.js</a> /dfcb/BigVideo.js</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<h1 class="alt">Experiments</h1>
+				<div class="block">
+					<p><a href="chrome-extension://fepbnnnkkadjhjahcafoaglimekefifl/index.html?epub=filesystem%3Achrome-extension%3A%2F%2Ffepbnnnkkadjhjahcafoaglimekefifl%2Fpersistent%2F1416435263569686" target="_blank">EBoOk AVanT GarDE</a> sandersk/ebook_avant_garde</p>
+					<p><a href="https://github.com/lizadaly/nanogenmo2014" target="_blank">National Novel Generating Month</a> /dariusk/NaNoGenMo</p>				
+				</div>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<h1 class="alt">E-Reading Modules</h1>
+				<div class="block">
+					<p><a href="http://annotatorjs.org/" target="_blank">Annotator</a> (annotation) /openannotation/annotator</p>
+					<p><a href="http://www.bigfootjs.com/" target="_blank">bigfoot.js</a> (footnotes) /lemonmade/bigfoot</p>
+					<p><a href="http://openseadragon.github.io/examples/ui-viewport-navigator/" target="_blank">OpenSeadragon</a> (image zoom) /openseadragon/openseadragon</p>
+				</div>
+			</div>
+		</section>
+		
+		<section class="slide">
+			<div class="vcenter">
+				<h1 class="alt">Publishing Platforms and Tools</h1>
+				<div class="block">
+					<p><a href="https://publications.artic.edu/monet/reader/paintingsanddrawings#section/135470" target="_blank">OSCI Toolkit</a> /IMAmuseum/OSCI-Toolkit</p>
+					<p><a href="http://scalar.usc.edu/works/performingarchive/index" target="_blank">Scalar</a> anvc/scalar
+					<p><a href="http://digitalpublishingtoolkit.org/" target="_blank">Digital Publishing Toolkit</a> /DigitalPublishingToolkit</p>
+					<p><a href="http://www.bakerframework.com/books/" target="_blank">Baker Framework</a> /bakerframework/baker/</p>
+				</div>
+			</div>
+		</section>
+			
+			
+		<section class="slide">
+			<div class="vcenter">
+				<div class="listcenter">
+				<ol>
+					<li class="finished">Definitions and conceptual models <br />of books and code</li>
+					<li class="finished">Git as a workflow for individual books</li>
+					<li class="finished">GitHub as a the only viable development platform for the future of digital publishing</li>
+				</ol>
+				</div>
+			</div>
+		</section>
+			
+		<section class="slide">
+			<div class="vcenter">
+				<p>&#160;</p>
+				<h1>Thanks!</h1>
+				<div class="block">
+					<p>Greg Albers</p>
+					<p>Digital Publications Manager<br />Getty Publications<br />
+					<i class="fa fa-envelope"></i> <a href="mailto:galbers@getty.edu">galbers@getty.edu</a><br />
+					<i class="fa fa-twitter"></i> <a href="http://www.twitter.com/geealbers" target="_blank">@geealbers</a><br />
+					<i class="fa fa-github"></i> <a href="http://github.com/gettypubs" target="_blank">http://github.com/gettypubs</a></p>
+				</div>
+			</div>
+		</section>			
+
+		<!-- End slides. -->
+
+		<div class="logo">
+			<img alt="Getty" src="images/gettylogo_0188ca_400px.png" /> 
+		</div>   
+
+		<!-- Begin extension snippets. Add or remove as needed. -->
+
+		<!-- deck.navigation snippet -->
+		<div aria-role="navigation">
+		  <a href="#" class="deck-prev-link" title="Previous">&#8592;</a>
+		  <a href="#" class="deck-next-link" title="Next">&#8594;</a>
+		</div>
+
+		<!-- deck.status snippet -->
+		<p class="deck-status" aria-role="status">
+		  <span class="deck-status-current"></span>
+		  /
+		  <span class="deck-status-total"></span>
+		</p>
+		<!-- End extension snippets. -->
+		
+	</div>
+
+	<!-- Required JS files. -->
+	<script src="jquery.min.js"></script>
+	<script src="core/deck.core.js"></script>
+
+	<!-- Extension JS files. Add or remove as needed. -->
+	<script src="extensions/menu/deck.menu.js"></script>
+	<script src="extensions/status/deck.status.js"></script>
+	<script src="extensions/navigation/deck.navigation.js"></script>
+	<script src="extensions/scale/deck.scale.js"></script>
+
+	<!-- Initialize the deck. You can put this in an external file if desired. -->
+	<script>
+	  $(function() {
+		$.deck('.slide');
+	  });
+	</script>
+
+</body>
+</html>
